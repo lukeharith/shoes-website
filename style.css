@@ -1,0 +1,41 @@
+/* Custom styles for the e-commerce site */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .logo {
+    font-size: 2em;
+    margin: 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.cart {
+    margin-right: 1em;
+}
+
+.cart-modal .modal-content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
